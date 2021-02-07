@@ -23,7 +23,7 @@ function App() {
     }
 
     useEffect(() => {
-        fetch(`${apiUrl}weather?q=${query}&units=metric&appid=${apiKey}`)
+        fetch(`${apiUrl}weather?q=london&units=metric&appid=${apiKey}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)
