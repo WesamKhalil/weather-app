@@ -1,4 +1,7 @@
-Make sure you have node.js installed, then install the necessary packages by typing in the console 'npm install'.
-In powershell to change the port, type '$env:PORT=' then the number of the port, if you don't provide a number it will automatically fall on port 3000.
-Type in the terminal 'npm run start:dev' to run a local server with webpack dev server.
-It should automatically open up a tab in a web browser to localhost on your specified port.
+A weather app that intially displays the temperature and weather of London but allows you to search other locations accross the globe using the openweathermap api. The background image changes depending on the temperature.  
+
+To get this app running make sure you have Node.js installed preferably on version 15.5.0 or above.  
+Open a terminal and CD to the projects folder.  
+Type in the terminal "npm install" without the quotes to install all the necessary packages.  
+To specify the port you want the app to work on type in your terminal "$env:PORT=" then the desired port number, make sure to exlude the quotes.  
+Then type in your terminal "npm run start:dev" and WebpackDevServer should open up a tab on your browser automatically to display the app.  
